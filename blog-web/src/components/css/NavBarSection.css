@@ -1,0 +1,27 @@
+nav {
+    height: 73px;
+}
+
+nav .navbar-nav a:hover {
+    color: #e85298;
+    letter-spacing: 0.1em;
+}
+
+nav .navbar-nav a {
+    transition: 0.1s letter-spacing, 2s opacity;
+    color: #333;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.5);
+}
+.navbar-brand {
+    transition: transform 0.2s;
+}
+
+nav .navbar-brand h1 {
+    font-family: "Montserrat";
+    font-weight: 700;
+}
